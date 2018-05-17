@@ -1,0 +1,204 @@
+/*This pattern is downloaded from www.subtlepatterns.com If you need more, that's where to get'em.*/
+
+body {
+    transition: all 2s;
+    height: auto;
+    background-color: black;
+    margin: 0;
+    font-size: 22px;
+/*    font-family: 'Bree Serif', serif;*/
+/*    font-family: 'Comfortaa', cursive;*/
+    font-family: 'Changa', sans-serif;
+
+    width: 100%;
+    color: whitesmoke;
+    user-select: none;    
+}
+
+#logo {
+    margin-right: 5em;
+    margin-left: 1em;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.block {
+    font-size: 1em;
+    width: 100%;
+    min-width: 850px;
+    box-sizing: border-box; 
+    margin: 0;
+}
+
+
+.empty {
+    height: 100vh;
+    background-color: darkorange;
+    opacity: 0;
+}
+
+/*########################## BACK START #########################*/
+#back1 {
+    padding-left: 5em;
+    padding-top: 2em;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+    background-image: url(img/3.JPG);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+#back1 p {
+    color: whitesmoke;
+    font-size: 4em;
+}
+
+#back2 {
+    padding-left: 5em;
+    padding-top: 2em;
+    background-color: whitesmoke;
+    height: 100vh;
+    position: fixed;
+    background-image: url(img/6.JPG);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    z-index: -1;
+    top: 0px;
+}
+
+#back2 p {
+    color:ghostwhite;
+    font-size:46px;
+}
+
+#back3 {
+    padding-left: 5em;
+    padding-top: 2em;
+    background-color: whitesmoke;
+    height: 100vh;
+    position: fixed;
+    background-image: url(img/5.JPG);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    z-index: -1;
+    top: 0px;
+}
+
+#back3 p {
+    color:ghostwhite;
+    font-size:46px;
+}
+/*########################### BACK END #######################*/
+
+
+
+.invisible {
+    display: none;
+}
+
+p {
+    padding-top: 1em;
+    font-size:46px;
+    color: #401010;
+}
+
+
+#s1 {
+    background-color: black;
+    font-size: .8em;
+    position: fixed;
+    z-index: 99999;
+    background-image: url(img/rebel.png);
+}
+
+
+
+
+#s1 p {
+    padding-left: 1em;
+    padding-top: 0;
+    margin: 0;
+}
+
+
+#s2 {
+    background-color: black;
+    background-image: url(img/rebel.png);
+    height: 100vh;
+    
+
+}
+
+
+#s2 p {
+    padding: 2em;
+}
+
+
+
+#s3 {
+    background-color: black;
+    height: 100vh;
+    background-image: url(img/rebel.png);
+}
+
+#s3 p {
+    padding: 2em;
+    
+}
+
+
+
+#s4 {
+    background-color: black;
+    height: 2vh;
+    position: absolute;
+    font-size: 0.5em;
+    text-align: center;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+.menu {
+    list-style:none;
+}
+
+.item {
+    bottom: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: .2em;
+    position: relative;
+    margin-left:.8em;
+    font-size:1.5em;
+}
+    
+    
+.item::before {
+    margin-left:-.2em;
+    content:'';
+    transition: .2s;
+    width: 0%;
+    height: 2px;
+    bottom: 10px;
+    position: absolute;
+    background-color: #600000;
+}
+ 
+.item:hover::before {
+    width: 100%;        
+    transform: translate(0%);
+}
