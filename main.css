@@ -47,7 +47,7 @@ body {
     height: 100vh;
     position: fixed;
     z-index: -1;
-    background-image: url(img/3.jpg);
+    background-image: url(img/3.JPG);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -61,10 +61,9 @@ body {
 #back2 {
     padding-left: 5em;
     padding-top: 2em;
-    background-color: whitesmoke;
     height: 100vh;
     position: fixed;
-    background-image: url(img/6.jpg);
+    background-image: url(img/6.JPG);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -80,10 +79,9 @@ body {
 #back3 {
     padding-left: 5em;
     padding-top: 2em;
-    background-color: whitesmoke;
     height: 100vh;
     position: fixed;
-    background-image: url(img/5.jpg);
+    background-image: url(img/5.JPG);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
